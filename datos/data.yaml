@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['gato', 'perro', 'zorro']
+
+roboflow:
+  workspace: dmmontero
+  project: animales-7lgay
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dmmontero/animales-7lgay/dataset/1
